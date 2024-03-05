@@ -15,6 +15,14 @@ class Contacto {
     private String name;
     private List<String> phones;
 
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setPhones(List<String> phones) {
+        this.phones = phones;
+    }
+
     /**
      * Método Contacto que guarda una serie de datos.
      * @param name El nombre del contacto.
